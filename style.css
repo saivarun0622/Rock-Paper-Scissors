@@ -1,0 +1,48 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+h1
+{
+    height: 2.5em;
+    line-height: 2.5em;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+
+}
+
+.choices
+{
+    margin-top: 3.5%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7em;
+}
+
+.choices .choice
+{
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.choices .choice img
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.choices .choice:hover
+{
+    cursor: pointer;
+    background: black;
+}
