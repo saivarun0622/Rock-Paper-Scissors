@@ -2,13 +2,13 @@
 {
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 h1
 {
     height: 2.5em;
     line-height: 2.5em;
-    text-align: center;
     background-color: black;
     color: aliceblue;
 
@@ -25,8 +25,8 @@ h1
 
 .choices .choice
 {
-    height: 210px;
-    width: 210px;
+    height: 180px;
+    width: 180px;
     border-radius: 50%;
     display:flex;
     align-items: center;
@@ -35,8 +35,8 @@ h1
 
 .choices .choice img
 {
-    height: 200px;
-    width: 200px;
+    height: 170px;
+    width: 170px;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -45,4 +45,33 @@ h1
 {
     cursor: pointer;
     background: black;
+}
+
+.scores
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:7.5%;
+    font-size: 2em;
+    margin-top: 50px;
+}
+
+#player-score,#computer-score
+{
+    font-size: 2.25em;
+}
+
+.message
+{
+    margin-top: 75px;
+}
+#msg
+{
+    background-color: black;
+    color:whitesmoke;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
 }
